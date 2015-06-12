@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+}
+p {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.logomenor {
+    width: 30%;
+}
+.logo {
+    width: 45%;
+}
+.headercadastro{
+    margin: 25px 1px;
+}
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+.sexo{
+    margin: -10px 0px 10px 0px;
+}
+.logo {
+    text-align: left;
+    margin-left: -45%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 18px;
+}
+.logo1{
+    font-weight: bold;
+}
+.logo2 {
+    color: #FFF;
+    font-weight: bold;
+}
+.basictext {
+	font-family: verdana;
+	color: #FFF;
+
+	font-size: 12px;
+	margin-top: 10px;
+    text-transform: bold;
+}
+.responsive {
+    width: 100%;
+    max-width: 100%;
+}
+.facebook{
+    background-color: #235F96;
+    width: 100%;
+    margin: -3px auto 5px;
+    padding: 6px 6px 6px;
+    border-color: rgb(89, 89, 89);
+    border-width: 0.1px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #E7E7E7;
+    font-family: verdana;    
+}
+.conteudo{
+    height: 100%;
+}
+.main{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+}
+.easy-main {
+    font-weight: bold;
+}
+.easy-main2{
+    font-weight: bold;
+    color: #FFF;
+}
+.entrar {
+    width: 100%;
+    background-color: #FFF;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: verdana;
+}
+.cadastrar {
+    width: 100%;
+    float: right;
+    background-color: #A14A0A;
+    padding: 9px 9px 0px 9px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFF;
+    font-family: verdana;
+    
+}
+.footer{ 
+    position:fixed; 
+    width: 100%; 
+    left:0; 
+    bottom:0;
+    box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.38);}
+.footer .col-xs-6{
+    padding: 0;
+}
+.validacao p{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: bold;
+    color: #fff;
+}

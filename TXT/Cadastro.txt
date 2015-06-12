@@ -1,0 +1,35 @@
+################## VERIFICAR EXISTENCIA USUARIO 1 ##################
+
+$contar = mysqli_query("SELECT COUNT(*) AS total FROM tabela WHERE campo='usuario'");
+
+
+if(mysqli_result($contar,0,'campo')==1)
+{
+
+// mensagem de existencia de usuario
+
+}else{
+
+// cadastra o usuario... INSERT INTO...
+
+
+}
+
+------------------------------------------------------------------
+################## VERIFICAR EXISTENCIA USUARIO 2 ##################
+
+$email = $_POST['email'];
+ 
+$consulta = mysql_query("SELECT * FROM tabela WHERE email='$email'");
+$linha = mysql_num_rows($consulta);
+ 
+ 
+if($linha == 0){
+// o usuário não existe, faça a inserção do mesmo;
+}
+else
+{
+// o usuário existe;
+}
+
+------------------------------------------------------------------
